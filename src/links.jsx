@@ -1,12 +1,13 @@
 import React from "react";
 import "./links.css"
+import soumaisfitlogo from "./assets/logo.png"
 
 function App() {
     return (
         <div class="container">
             <div class="header">
                 <div class="logo-container">
-                    <img src="./soumaisfit.png" alt="soumaisfit-logo" class="logo"></img>
+                    <img src={soumaisfitlogo} alt="soumaisfit-logo" class="logo"></img>
                 </div>
                 <h1>Sou + Fit</h1>
                 <p class="slogan">Somos mais que uma academia, somos um complexo</p>
