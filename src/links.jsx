@@ -6,7 +6,7 @@ function App() {
         <div class="container">
             <div class="header">
                 <div class="logo-container">
-                    <img src="src\soumaisfit.png" alt="soumaisfit-logo" class="logo"></img>
+                    <img src="./assets/soumaisfit.png" alt="soumaisfit-logo" class="logo"></img>
                 </div>
                 <h1>Sou + Fit</h1>
                 <p class="slogan">Somos mais que uma academia, somos um complexo</p>
