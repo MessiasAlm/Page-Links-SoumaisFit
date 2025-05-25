@@ -51,15 +51,13 @@ function UI() {
             </div>
 
             <div class="highlights">
-                <div class="highlight-item">Tag</div>
-                <div class="highlight-item">Tag</div>
-                <div class="highlight-item">Tag</div>
-                <div class="highlight-item">Tag</div>
-                <div class="highlight-item">Tag</div>
-                <div class="highlight-item">Tag</div>
-                <div class="highlight-item">Tag</div>
-                <div class="highlight-item">Tag</div>
-                <div class="highlight-item">Tag</div>
+                <div class="highlight-item">Alto Padrão</div>
+                <div class="highlight-item">Moderna</div>
+                <div class="highlight-item">Complexo</div>
+                <div class="highlight-item">#SouMaisFit</div>
+                <div class="highlight-item">#SGA</div>
+                <div class="highlight-item">Treino Funcional</div>
+                <div class="highlight-item">Experiência Única</div>
 
                 {/*<div class="highlight-item">Personal Trainers</div>
                 <div class="highlight-item">Moderna</div>
