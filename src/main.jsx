@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import UI from './links'
+import App from './links'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UI/>
+    <App/>
   </StrictMode>,
 )
