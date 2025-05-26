@@ -1,11 +1,11 @@
 import React from "react";
 import "./app.css"
 import logo from "../assets/logo.png"
+import { Link } from "react-router-dom";
 
 function App() {
-
     return (
-        < div class="container" >
+        <div class="container">
             <div class="header">
                 <div class="logo-container">
                     <img src={logo} alt="soumaisfit-logo" class="logo"></img>
@@ -17,12 +17,12 @@ function App() {
             <div class="links-grid">
 
                 <div class="link-card">
-                    <a href="">
+                    <Link to="/plans">
                         <div class="link-icon">
                             <i class="fa solid fa-dumbbell" id="icon-plans"></i>
                         </div>
                         Nossos Planos
-                    </a>
+                    </Link>
                 </div>
 
                 <div class="link-card">
@@ -35,7 +35,7 @@ function App() {
                 </div>
 
                 <div class="link-card">
-                    <a href="" target="_blank">
+                    <a>
                         <div class="link-icon">
                             <i class=""></i>
                         </div>
@@ -79,6 +79,7 @@ function App() {
             <footer>
                 © 2025 Sou + Fit - Todos os direitos reservados
             </footer>
+            <Link to={"/plans"}>PLANOS</Link>
         </div >
 
     )
