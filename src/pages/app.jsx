@@ -79,7 +79,6 @@ function App() {
             <footer>
                 © 2025 Sou + Fit - Todos os direitos reservados
             </footer>
-            <Link to={"/plans"}>PLANOS</Link>
         </div >
 
     )
