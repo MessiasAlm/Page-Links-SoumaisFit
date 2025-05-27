@@ -1,25 +1,12 @@
 .plans-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px 0 auto;
 }
 
-       /* Header */
         .plans-header {
             text-align: center;
             margin-bottom: 3rem;
             position: relative;
-        }
-
-        .back-button {
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: var(--gold-solid);
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 500;
         }
 
         .plans-header h1 {
@@ -31,15 +18,17 @@
             -webkit-text-fill-color: transparent;
         }
 
-        /* Grid de Planos */
         .plans-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
         }
 
-        /* Cards */
         .plan-card {
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             background: var(--glass);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
@@ -55,11 +44,11 @@
             box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
         }
 
-        .plan-card:hover {
+        /*.plan-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
             border-color: rgba(255, 215, 0, 0.5);
-        }
+        }*/
 
         /* Badge "Popular" */
         .popular-badge {
@@ -93,22 +82,23 @@
 
         /* Textos */
         .plan-card h3 {
-            font-size: 1.5rem;
-            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
             margin-bottom: 0.5rem;
         }
 
         .plan-card h2 {
-            font-size: 2rem;
-            text-align: center;
+            font-size: 42px;
             color: var(--gold-solid);
-            margin-bottom: 1.5rem;
+            margin-bottom: 10px;
         }
 
         /* Lista de Benefícios */
         .plan-features {
             list-style: none;
             margin-bottom: 2rem;
+            border-top: 1px solid #d9d9dd36;
+            padding-top: 15px;
         }
 
         .plan-features li {
@@ -126,18 +116,18 @@
         /* Botão CTA */
         .cta-button {
             width: 100%;
-            padding: 12px;
+            height: 50px;
             background: var(--gold);
             color: var(--dark-gray);
             border: none;
-            border-radius: 50px;
+            border-radius: 10px;
+            font-size: 1.06rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
         }
 
         .cta-button:hover {
-            transform: scale(1.05);
             box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
         }
 
@@ -151,5 +141,9 @@
                 position: relative;
                 margin-bottom: 1rem;
                 justify-content: center;
+            }
+
+            .plans-header h1 {
+                font-size: 2rem;
             }
 }
