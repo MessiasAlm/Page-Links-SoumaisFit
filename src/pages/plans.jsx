@@ -1,10 +1,12 @@
 import React from 'react';
 import './plans.css';
+import logo from "../assets/logo.png"
 
 function plans() {
    return(
     <div class="plans-container">
         <header class="plans-header">
+            <img src={logo} alt="soumaisfit-logo" class="logo"></img>
             <h1>Nossos Planos</h1>
             <p>Escolha o que melhor se adapta aos seus objetivos</p>
         </header>
