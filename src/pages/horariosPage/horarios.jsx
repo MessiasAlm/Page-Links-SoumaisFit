@@ -13,6 +13,9 @@ function horarios() {
       <div class="plan-card">
 
       </div>
+      <footer>
+        © 2025 Sou + Fit - Todos os direitos reservados
+      </footer>
     </div>
   );
 }
