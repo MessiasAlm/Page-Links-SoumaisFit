@@ -25,7 +25,8 @@ function plans() {
                 </ul>
             </div>
 
-             <div class="plan-card">
+            <div class="plan-card highlighted">
+                <div class="inverted-border-radius"><p class="popular-text">Popular</p></div>
                 <h3>Monthly</h3>
                 <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
                 <a href="https://wa.me/5585992981393" target="_blank"><button class="cta-button">Comprar</button></a>
@@ -37,8 +38,7 @@ function plans() {
                 </ul>
             </div>
 
-            <div class="plan-card highlighted">
-                <div class="inverted-border-radius"><p class="popular-text">Popular</p></div>
+            <div class="plan-card">
                 <h3>Monthly</h3>
                 <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
                 <a href="https://wa.me/5585992981393" target="_blank"><button class="cta-button">Comprar</button></a>
