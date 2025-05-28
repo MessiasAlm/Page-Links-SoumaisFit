@@ -15,7 +15,8 @@ function plans() {
              <div class="plan-card">
                 <h3>Monthly</h3>
                 <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
-                <button class="cta-button">Comprar</button>
+                <a href="https://wa.me/5585992981393" target="_blank"><button class="cta-button">Comprar</button></a>
+                
                 <ul class="plan-features">
                     <li><i class="fas fa-check check-icon"></i> Acesso ilimitado</li>
                     <li><i class="fas fa-check check-icon"></i> 3 aulas em grupo por semana</li>
@@ -27,7 +28,7 @@ function plans() {
              <div class="plan-card">
                 <h3>Monthly</h3>
                 <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
-                <button class="cta-button">Comprar</button>
+                <a href="https://wa.me/5585992981393" target="_blank"><button class="cta-button">Comprar</button></a>
                 <ul class="plan-features">
                     <li><i class="fas fa-check check-icon"></i> Acesso ilimitado</li>
                     <li><i class="fas fa-check check-icon"></i> 3 aulas em grupo por semana</li>
@@ -40,7 +41,7 @@ function plans() {
                 <div class="inverted-border-radius"><p class="popular-text">Popular</p></div>
                 <h3>Monthly</h3>
                 <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
-                <button class="cta-button">Comprar</button>
+                <a href="https://wa.me/5585992981393" target="_blank"><button class="cta-button">Comprar</button></a>
                 <ul class="plan-features">
                     <li><i class="fas fa-check check-icon"></i> Acesso ilimitado</li>
                     <li><i class="fas fa-check check-icon"></i> 3 aulas em grupo por semana</li>
@@ -52,7 +53,7 @@ function plans() {
              <div class="plan-card">
                 <h3>Monthly</h3>
                 <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
-                <button class="cta-button">Comprar</button>
+                <a href="https://wa.me/5585992981393" target="_blank"><button class="cta-button">Comprar</button></a>
                 <ul class="plan-features">
                     <li><i class="fas fa-check check-icon"></i> Acesso ilimitado</li>
                     <li><i class="fas fa-check check-icon"></i> 3 aulas em grupo por semana</li>

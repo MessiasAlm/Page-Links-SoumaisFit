@@ -100,7 +100,6 @@
             border-color: rgba(255, 215, 0, 0.5);
         }*/
 
-        /* Textos */
         .plan-card h3 {
             font-size: 20px;
             font-weight: 400;
@@ -120,7 +119,6 @@
             color: #ffffff;
         }
 
-          /* Botão CTA */
         .cta-button {
             width: 100%;
             height: 55px;
@@ -129,7 +127,7 @@
             border: none;
             border-radius: 10px;
             font-size: 1.06rem;
-            line-height: 1.06rem;
+            line-height: 1.07rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
@@ -140,7 +138,6 @@
             box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
         }
 
-        /* Lista de Benefícios */
         .plan-features {
             list-style: none;
             border-top: 1px solid #d9d9dd36;
@@ -159,7 +156,6 @@
             font-size: 0.9rem;
         }
 
-        /* Responsivo */
 @media (max-width: 768px) {
             .plans-grid {
                 grid-template-columns: 1fr;
