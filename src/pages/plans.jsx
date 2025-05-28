@@ -10,54 +10,53 @@ function plans() {
         </header>
 
         <div class="plans-grid">
-            <div class="plan-card">
-                <h3>Daily</h3>
-                <h2>R$ 99</h2>
-                <ul class="plan-features">
-                    <li><i class="fas fa-check check-icon"></i> Acesso à área de musculação</li>
-                    <li><i class="fas fa-check check-icon"></i> 1 aula em grupo por semana</li>
-                    <li><i class="fas fa-check check-icon"></i> App de treinos básico</li>
-                </ul>
-                <button class="cta-button">Comprar</button>
-            </div>
-
-            <div class="plan-card highlighted">
-                {/*<div class="popular-badge">
-                    <i class="fas fa-fire"></i> MAIS POPULAR
-                </div>*/}
+             <div class="plan-card">
                 <h3>Monthly</h3>
-                <h2>R$ 199</h2>
+                <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
+                <button class="cta-button">Comprar</button>
                 <ul class="plan-features">
                     <li><i class="fas fa-check check-icon"></i> Acesso ilimitado</li>
                     <li><i class="fas fa-check check-icon"></i> 3 aulas em grupo por semana</li>
                     <li><i class="fas fa-check check-icon"></i> App premium + nutrição</li>
                     <li><i class="fas fa-check check-icon"></i> Acesso ao lounge VIP</li>
                 </ul>
-                <button class="cta-button">Comprar</button>
             </div>
 
-            <div class="plan-card">
-                <h3>Annual</h3>
-                <h2>R$ 299</h2>
-                <ul class="plan-features">
-                    <li><i class="fas fa-check check-icon"></i> Personal trainer 2x/semana</li>
-                    <li><i class="fas fa-check check-icon"></i> Aulas ilimitadas</li>
-                    <li><i class="fas fa-check check-icon"></i> Massagem mensal</li>
-                    <li><i class="fas fa-check check-icon"></i> Programa de recuperação</li>
-                </ul>
+             <div class="plan-card">
+                <h3>Monthly</h3>
+                <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
                 <button class="cta-button">Comprar</button>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check check-icon"></i> Acesso ilimitado</li>
+                    <li><i class="fas fa-check check-icon"></i> 3 aulas em grupo por semana</li>
+                    <li><i class="fas fa-check check-icon"></i> App premium + nutrição</li>
+                    <li><i class="fas fa-check check-icon"></i> Acesso ao lounge VIP</li>
+                </ul>
             </div>
 
-            <div class="plan-card">
-                <h3>Family</h3>
-                <h2>R$ 299</h2>
-                <ul class="plan-features">
-                    <li><i class="fas fa-check check-icon"></i> Personal trainer 2x/semana</li>
-                    <li><i class="fas fa-check check-icon"></i> Aulas ilimitadas</li>
-                    <li><i class="fas fa-check check-icon"></i> Massagem mensal</li>
-                    <li><i class="fas fa-check check-icon"></i> Programa de recuperação</li>
-                </ul>
+            <div class="plan-card highlighted">
+                <div class="inverted-border-radius"><p class="popular-text">Popular</p></div>
+                <h3>Monthly</h3>
+                <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
                 <button class="cta-button">Comprar</button>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check check-icon"></i> Acesso ilimitado</li>
+                    <li><i class="fas fa-check check-icon"></i> 3 aulas em grupo por semana</li>
+                    <li><i class="fas fa-check check-icon"></i> App premium + nutrição</li>
+                    <li><i class="fas fa-check check-icon"></i> Acesso ao lounge VIP</li>
+                </ul>
+            </div>
+
+             <div class="plan-card">
+                <h3>Monthly</h3>
+                <h2><span class="dec">R$</span>199<span class="dec">,00</span></h2>
+                <button class="cta-button">Comprar</button>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check check-icon"></i> Acesso ilimitado</li>
+                    <li><i class="fas fa-check check-icon"></i> 3 aulas em grupo por semana</li>
+                    <li><i class="fas fa-check check-icon"></i> App premium + nutrição</li>
+                    <li><i class="fas fa-check check-icon"></i> Acesso ao lounge VIP</li>
+                </ul>
             </div>
         </div>
     </div>

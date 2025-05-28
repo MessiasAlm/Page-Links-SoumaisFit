@@ -25,7 +25,7 @@
         }
 
         .plan-card {
-            height: 450px;
+            height: 480px;
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -40,8 +40,52 @@
         }
 
         .plan-card.highlighted {
+            height: 550px;
             border: 1px solid var(--gold-solid);
             box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
+            overflow-y: hidden;
+        }
+
+        .plan-card.highlighted .inverted-border-radius {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 150px;
+            background: var(--gold-solid);
+            border-radius: 0px 18px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .inverted-border-radius::before {
+           content: "";
+           position: absolute;
+           background-color: #00000000;
+           bottom: -50px;
+           right: 0;
+           height: 50px;
+           width: 25px;
+           border-top-right-radius: 25px;
+           box-shadow: 0 -25px 0 0 var(--gold-solid);
+        }
+
+        .inverted-border-radius::after {
+           content: "";
+           position: absolute;
+           background-color: #00000000;
+           left: -25px;
+           height: 50px;
+           width: 25px;
+           border-top-right-radius: 25px;
+           box-shadow: 0 -25px 0 0 var(--gold-solid);
+        }
+
+        .popular-text {
+            color: var(--dark-gray);
+            font-size: 16px;
+            font-weight: 600;
         }
 
         /*.plan-card:hover {
@@ -50,55 +94,51 @@
             border-color: rgba(255, 215, 0, 0.5);
         }*/
 
-        /* Badge "Popular" */
-        .popular-badge {
-            position: absolute;
-            top: -15px;
-            right: 20px;
-            background: #FF416C;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-
-        /* Ícone do Plano */
-        .plan-icon {
-            width: 60px;
-            height: 60px;
-            background: var(--gold);
-            color: var(--dark-gray);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 1.5rem;
-            font-size: 1.5rem;
-        }
-
         /* Textos */
         .plan-card h3 {
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 400;
             margin-bottom: 0.5rem;
+            color: var(--gold-solid);
         }
 
         .plan-card h2 {
-            font-size: 42px;
+            font-size: 60px;
             color: var(--gold-solid);
-            margin-bottom: 10px;
+            color: white;
+        }
+
+        .plan-card h2 .dec {
+            font-size: 24px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+
+          /* Botão CTA */
+        .cta-button {
+            width: 100%;
+            height: 55px;
+            background: var(--gold);
+            color: var(--dark-gray);
+            border: none;
+            border-radius: 10px;
+            font-size: 1.06rem;
+            line-height: 1.06rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin: 20px 0 40px 0;
+        }
+
+        .cta-button:hover {
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
         }
 
         /* Lista de Benefícios */
         .plan-features {
             list-style: none;
-            margin-bottom: 2rem;
             border-top: 1px solid #d9d9dd36;
-            padding-top: 15px;
+            padding-top: 40px;
         }
 
         .plan-features li {
@@ -111,24 +151,6 @@
             color: var(--gold-solid);
             margin-right: 10px;
             font-size: 0.9rem;
-        }
-
-        /* Botão CTA */
-        .cta-button {
-            width: 100%;
-            height: 50px;
-            background: var(--gold);
-            color: var(--dark-gray);
-            border: none;
-            border-radius: 10px;
-            font-size: 1.06rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .cta-button:hover {
-            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
         }
 
         /* Responsivo */
