@@ -1,6 +1,6 @@
 import React from 'react';
 import './plans.css';
-import logo from "../assets/logo.png"
+import logo from '/src/assets/logo.png';
 
 function plans() {
    return(

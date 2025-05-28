@@ -1,7 +1,7 @@
-import React from "react";
-import "./app.css"
-import logo from "../assets/logo.png"
-import { Link } from "react-router-dom";
+import React from 'react';
+import './app.css'
+import logo from '/src/assets/logo.png';
+import { Link } from 'react-router-dom';
 
 function App() {
     return (
@@ -35,21 +35,12 @@ function App() {
                 </div>
 
                 <div class="link-card">
-                    <a>
+                    <Link to="/horarios">
                         <div class="link-icon">
-                            <i class=""></i>
+                            <i class="fas fa-clock"></i>
                         </div>
-                        Link 3
-                    </a>
-                </div>
-
-                <div class="link-card">
-                    <a href="" target="_blank">
-                        <div class="link-icon">
-                            <i class=""></i>
-                        </div>
-                        Link 4
-                    </a>
+                        Horários
+                    </Link>
                 </div>
             </div>
 
