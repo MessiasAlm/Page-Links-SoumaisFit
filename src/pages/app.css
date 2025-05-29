@@ -259,13 +259,17 @@ h1 {
 .info {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
     margin-top: 2.5rem;
 }
 
 .info-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0.8rem;
 }
 
@@ -278,6 +282,7 @@ h1 {
 
 .info-text {
     font-size: 14px;
+    text-align: center;
 }
 
 .text-yellow {
