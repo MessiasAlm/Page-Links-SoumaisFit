@@ -35,12 +35,21 @@ function App() {
                 </div>
 
                 <div class="link-card">
-                    <Link to="/horarios">
+                    <a>
                         <div class="link-icon">
-                            <i class="fas fa-clock"></i>
+                            <i class=""></i>
                         </div>
-                        Horários
-                    </Link>
+                        Link 3
+                    </a>
+                </div>
+
+                  <div class="link-card">
+                    <a>
+                        <div class="link-icon">
+                            <i class=""></i>
+                        </div>
+                        Link 4
+                    </a>
                 </div>
             </div>
 
@@ -53,18 +62,29 @@ function App() {
             </div>
 
             <div class="social-links">
-                <a href="https://instagram.com/academiapremium" class="social-icon" target="_blank">
+                <a href="https://instagram.com/complexosoumaisfit" class="social-icon" target="_blank">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://tiktok.com/@academiapremium" class="social-icon" target="_blank">
-                    <i class="fab fa-tiktok"></i>
-                </a>
-                <a href="https://youtube.com/academiapremium" class="social-icon" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://wa.me/5511999999999" class="social-icon" target="_blank">
+                <a href="https://wa.me/5585992981393" class="social-icon" target="_blank">
                     <i class="fab fa-whatsapp"></i>
                 </a>
+            </div>
+
+            <div class="info">
+                <div class="info-container">
+                    <p class="info-title">Funcionamento</p>
+                    <ul>
+                        <li class="info-text"><span class="text-yellow">Seg. a Sex: </span>05h às 23h</li>
+                        <li class="info-text"><span class="text-yellow">Sábado: </span>07h às 19h</li>
+                        <li class="info-text"><span class="text-yellow">Domingo: </span>08h às 12h</li> 
+                    </ul>
+                </div>
+                <div class="info-container">
+                    <p class="info-title">Endereço</p>
+                    <ul>
+                        <li class="info-text">Solar Open Mall - Av. Deputado Barros Pinho, n⁰ 700 Bairro Palestina | São Gonçalo do Amarante</li>
+                    </ul>
+                </div>
             </div>
 
             <footer>

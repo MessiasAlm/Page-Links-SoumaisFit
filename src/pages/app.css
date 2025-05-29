@@ -16,6 +16,7 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     outline: none;
+    list-style: none;
     text-decoration: none;
 }
 
@@ -97,7 +98,7 @@ h1 {
 .links-grid {
     display: grid;
     gap: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .link-card {
@@ -253,6 +254,35 @@ h1 {
     position: relative;
     z-index: 1;
     transition: color 0.3s;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 2.5rem;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.info-title {
+    font-size: 32px;
+    color: var(--light-gray);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info-text {
+    font-size: 14px;
+}
+
+.text-yellow {
+    color: var(--gold-solid);
+    font-weight: 600;
 }
 
 footer {
