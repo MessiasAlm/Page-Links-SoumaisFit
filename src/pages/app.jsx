@@ -35,21 +35,12 @@ function App() {
                 </div>
 
                 <div class="link-card">
-                    <a>
+                    <Link to="/modalities">
                         <div class="link-icon">
                             <i class=""></i>
                         </div>
-                        Link 3
-                    </a>
-                </div>
-
-                  <div class="link-card">
-                    <a>
-                        <div class="link-icon">
-                            <i class=""></i>
-                        </div>
-                        Link 4
-                    </a>
+                        Modalidades
+                    </Link>
                 </div>
             </div>
 
