@@ -25,7 +25,7 @@ function modalities() {
           <div class="div-image"></div>
           <div class="div-content">
             <h2>Treinamento Funcional</h2>
-            <p>O <b>Trenamento Funcional</b> é um método de exercício que simula movimentos do dia a dia para melhorar força, equilíbrio, coordenação, flexibilidade e resistência. Utiliza o peso do corpo e acessórios como cordas, bolas e elásticos, focando no corpo como um todo, e não em grupos musculares isolados. É indicado para todas as idades.</p>
+            <p>O <b>Trenamento Funcional</b> simula movimentos do dia a dia para melhorar força, equilíbrio, coordenação, flexibilidade e resistência. Utiliza o peso do corpo e acessórios como cordas, bolas e elásticos, focando no corpo como um todo, e não em grupos musculares isolados. É indicado para todas as idades.</p>
             <a href="https://wa.me/5585992981393" target="_blank"><button class="cta-button">Quero Participar</button></a>
           </div>
         </div>
