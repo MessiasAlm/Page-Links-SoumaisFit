@@ -1,0 +1,84 @@
+.modalities-container {
+    max-width: 1200px;
+    margin: 0 0 auto;
+    padding: 1rem;
+}
+
+.modalities-header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.modalities-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    background: var(--gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modalities-grid {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5rem;
+}
+
+.modalitie-card {
+    height: 650px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 2rem 2rem 0 2rem;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.modalitie-card .div-image {
+    background-color: #d9d9d9;
+    height: 40%;
+    border-radius: 20px;
+}
+
+.modalitie-card .div-content {
+    background-color: transparent;
+    height: 60%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modalitie-card .div-content h2 {
+    font-size: 28px;
+    background: var(--gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+}

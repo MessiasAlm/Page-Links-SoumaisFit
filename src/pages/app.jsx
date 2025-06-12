@@ -19,7 +19,7 @@ function App() {
                 <div class="link-card">
                     <Link to="/plans">
                         <div class="link-icon">
-                            <i class="fa solid fa-dumbbell" id="icon-plans"></i>
+                            <i class="fas fa-clipboard-list" id="icon-plans"></i>
                         </div>
                         Nossos Planos
                     </Link>
@@ -37,7 +37,7 @@ function App() {
                 <div class="link-card">
                     <Link to="/modalities">
                         <div class="link-icon">
-                            <i class=""></i>
+                            <i class="fa solid fa-dumbbell" id="icon-modalities"></i>
                         </div>
                         Modalidades
                     </Link>

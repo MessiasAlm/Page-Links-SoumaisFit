@@ -8,7 +8,7 @@ function plans() {
         <header class="plans-header">
             <img src={logo} alt="soumaisfit-logo" class="logo"></img>
             <h1>Nossos Planos</h1>
-            <p>Escolha o que melhor se adapta aos seus objetivos</p>
+            <p class="slogan">Escolha o que melhor se adapta aos seus objetivos</p>
         </header>
 
         <div class="plans-grid">
